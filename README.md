@@ -1,6 +1,6 @@
 # Entwicklung eines Embedded Systems zur automatischen Messdatenerfassung in Bienenstöcken
 
-Diese Arbeit befasst sich mit der Entwicklung eines IoT-basierten Monitoring-Systems für Bienenvölker. Das System überwacht Klima, Gewicht und Akustik, um die Gesundheit der Bienen zu sichern und die Honigproduktion zu optimieren.
+Diese Bachelorarbeit befasst sich mit der Entwicklung eines IoT-basierten Monitoring-Systems für Bienenvölker. Das System überwacht Klima, Gewicht und Akustik, um die Gesundheit der Bienen zu sichern und die Honigproduktion zu optimieren.
 
 <p align="center">
   <img src="images/complete_system_overview.png" width="600" alt="Komplettes System">
@@ -18,8 +18,8 @@ Diese Arbeit befasst sich mit der Entwicklung eines IoT-basierten Monitoring-Sys
 Ein zentraler Bestandteil der Arbeit war der Übergang vom Breadboard-Prototyp zum finalen Hardware-Produkt:
 - **Custom PCB:** Entwurf und Fertigung einer dedizierten Platine mit **KiCAD 8.0**.
 - **Gehäusekonstruktion:** Maßgeschneidertes Schutzgehäuse, entworfen in **Autodesk Fusion**.
-- **Recheneinheit:** Raspberry Pi 4B als zentrales Gateway.
-- **Sensorkomponenten:** SPH0645 (I2S Mikrofon), HX711 (24-Bit Load Cell ADC), ADS1115.
+- **Recheneinheit:** Raspberry Pi 4B.
+- **Sensorkomponenten:** DHT22 (Temperatur und Feuchtigkeit Sensor), SPH0645 (I2S Mikrofon), HX711 (24-Bit Load Cell ADC), ADS1115.
 
 ## Software & Cloud-Architektur
 - **Programmiersprache:** Python (Modularer Aufbau für Sensorik und Kommunikation).
